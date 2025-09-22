@@ -302,8 +302,9 @@ p.n-margin {
     display: none;
     position: fixed;
     width: 400px;
+    max-width: calc(100vw - 2 * 15px);
     top: 0;
-    left: calc(50vw - 220px);
+    left: max(0px, calc(50vw - 220px));
     padding: 15px;
     background-color: var(--color-background-modal);
     border-radius: 5px;
